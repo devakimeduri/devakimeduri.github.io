@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
+          rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -33,116 +35,122 @@
         </ul>
     </nav>
 
-   <!-- ================= HERO ================= -->
 
-<section class="hero">
+    <!-- ================= HERO ================= -->
 
-    <div class="hero-glow"></div>
+    <section class="hero">
 
-    <div class="hero-content">
+        <div class="hero-glow"></div>
 
-        <div class="hero-text">
+        <div class="hero-content">
 
-            <p class="intro">
-                Engineering Physics Undergraduate • IIT Hyderabad
-            </p>
+            <div class="hero-text">
 
-            <h1>
-                Sri Devaki Meduri
-            </h1>
+                <p class="intro">
+                    Engineering Physics Undergraduate • IIT Hyderabad
+                </p>
 
-            <p class="description">
-                Exploring cosmology, gravitational-wave astronomy,
-                neutrino astrophysics, and galaxy formation through
-                observational data analysis and computational modelling.
-            </p>
+                <h1>Sri Devaki Meduri</h1>
 
-            <div class="buttons">
-                <a href="#research" class="primary-btn">
-                    Research
-                </a>
+                <p class="description">
+                    Exploring cosmology, gravitational-wave astronomy,
+                    neutrino astrophysics, and galaxy formation through
+                    observational data analysis and computational modelling.
+                </p>
 
-                <a href="dev_cv.pdf" class="secondary-btn" target="_blank">
-                    CV
-                </a>
+                <div class="buttons">
+
+                    <a href="#research" class="primary-btn">
+                        Research
+                    </a>
+
+                    <!-- Updated CV -->
+                    <a href="cv_dev_updated.pdf?v=2"
+                       class="secondary-btn"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        CV
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <img src="images/profile.jpg"
+                     alt="Sri Devaki Meduri">
             </div>
 
         </div>
 
-        <div class="hero-image">
+    </section>
 
-            <img src="images/profile.jpg"
-                 alt="Sri Devaki Meduri">
 
-        </div>
+    <!-- ================= ABOUT ================= -->
 
-    </div>
+    <section id="about" class="section">
 
-</section>
+        <h2>About</h2>
 
-<!-- ================= ABOUT ================= -->
+        <p>
+            The Universe is like an ocean, and we're only at the shore.
 
-<section id="about" class="section">
+            Hi! I am an undergraduate student in Engineering Physics at the
+            Indian Institute of Technology Hyderabad. I am interested in research
+            in cosmology, gravitational-wave astronomy, neutrino astrophysics,
+            galaxy formation, and large-scale structure.
 
-    <h2>About</h2>
-
-    <p>
-        The Universe is like an ocean, and we're only at the shore.
-
-        Hi! I am an undergraduate student in Engineering Physics at the
-        Indian Institute of Technology Hyderabad. I am interested in research
-        in cosmology, gravitational-wave astronomy, neutrino astrophysics,
-        galaxy formation, and large-scale structure.
-
-        My current work spans IceCube neutrino analyses, dark matter halo
-        modelling, and gravitational-wave population studies using LISA
-        and ground-based detectors.
-    </p>
-
-</section>
+            My current work spans IceCube neutrino analyses, dark matter halo
+            modelling, and gravitational-wave population studies using LISA
+            and ground-based detectors.
+        </p>
 
     </section>
 
+
     <!-- ================= RESEARCH ================= -->
 
-<section id="research" class="section">
+    <section id="research" class="section">
 
-    <h2>Research</h2>
+        <h2>Research</h2>
 
-    <div class="research-card">
+        <!-- IceCube Neutrino Analysis -->
 
-    <div class="card-header">
+        <div class="research-card">
 
-        <span class="icon">🔭</span>
+            <div class="card-header">
 
-        <span class="tag">
-            High-Energy Astrophysics
-        </span>
+                <span class="icon">🔭</span>
 
-    </div>
+                <span class="tag">
+                    High-Energy Astrophysics
+                </span>
 
-    <h3>IceCube Neutrino Analysis</h3>
+            </div>
 
-    <p>
-        Searching for neutrino emission from galaxy clusters using
-        IceCube observations and unbinned likelihood analyses.
-    </p>
+            <h3>IceCube Neutrino Analysis</h3>
 
-    <ul class="research-list">
+            <p>
+                Searching for neutrino emission from astrophysical sources
+                using IceCube observations and unbinned likelihood analyses.
+            </p>
 
-        <li>Likelihood analysis</li>
+            <ul class="research-list">
+                <li>Likelihood analysis</li>
+                <li>Flux upper limits</li>
+                <li>Detector response</li>
+            </ul>
 
-        <li>Flux upper limits</li>
+            <a href="https://www.sciencedirect.com/science/article/pii/S092765052600109X?via%3Dihub"
+               target="_blank"
+               rel="noopener noreferrer">
+                Read Paper →
+            </a>
 
-        <li>Detector response</li>
+        </div>
 
-    </ul>
 
-    <a href="projects/icecube.html">
-        View Project →
-    </a>
-
-</div>
+        <!-- Gravitational-Wave Astronomy -->
 
         <div class="research-card">
 
@@ -155,51 +163,140 @@
                 compact binaries using LISA and ground-based detectors.
             </p>
 
-            <a href="#">
-                Learn More →
+            <a href="#publications">
+                View Publications →
             </a>
 
         </div>
+
+
+        <!-- Dark Matter and Galaxy Formation -->
 
         <div class="research-card">
 
             <div class="icon">🪐</div>
 
-            <h3>Dark Matter & Galaxy Formation</h3>
+            <h3>Dark Matter &amp; Galaxy Formation</h3>
 
             <p>
                 Studying halo properties, stellar–halo mass relations,
                 and large-scale structure using cosmological simulations.
             </p>
 
-            <a href="#">
-                Learn More →
+            <a href="#publications">
+                View Publications →
             </a>
 
         </div>
 
+
+        <!-- Baryonic Faber-Jackson Relation -->
+
         <div class="research-card">
 
-    <div class="icon">🌌</div>
+            <div class="icon">🌌</div>
 
-    <h3>Baryonic Faber-Jackson Relation (BFJR)</h3>
+            <h3>Baryonic Faber-Jackson Relation (BFJR)</h3>
 
-    <p>
-        Investigating the Baryonic Faber-Jackson Relation using the IllustrisTNG
-        cosmological simulations to analyse MOND vs LambdaCDM.
-    </p>
+            <p>
+                Investigating the Baryonic Faber-Jackson Relation using
+                IllustrisTNG cosmological simulations to analyse MOND
+                versus LambdaCDM.
+            </p>
 
-    <a href="#">
-        Learn More →
-    </a>
+            <a href="#publications">
+                View Publications →
+            </a>
 
-</div>
+        </div>
 
-    </div>
+    </section>
 
-</div>
 
-</section>
+    <!-- ================= PUBLICATIONS ================= -->
+
+    <section id="publications" class="section">
+
+        <h2>Publications</h2>
+
+        <p>
+            Selected research papers and publications in astrophysics
+            and neutrino astronomy.
+        </p>
+
+
+        <!-- IceCube Paper -->
+
+        <div class="research-card">
+
+            <div class="card-header">
+                <span class="icon">📄</span>
+
+                <span class="tag">
+                    Neutrino Astrophysics
+                </span>
+            </div>
+
+            <h3>IceCube Neutrino Analysis</h3>
+
+            <p>
+                Research using IceCube observations and likelihood-based
+                methods to investigate astrophysical neutrino emission.
+            </p>
+
+            <a href="https://www.sciencedirect.com/science/article/pii/S092765052600109X?via%3Dihub"
+               target="_blank"
+               rel="noopener noreferrer">
+                Read Paper →
+            </a>
+
+        </div>
+
+
+        <!-- Abell 119 Paper -->
+
+        <div class="research-card">
+
+            <div class="card-header">
+                <span class="icon">🌌</span>
+
+                <span class="tag">
+                    Galaxy Clusters
+                </span>
+            </div>
+
+            <h3>Neutrino Analysis of Abell 119</h3>
+
+            <p>
+                Investigation of high-energy neutrino emission from
+                the galaxy cluster Abell 119 using IceCube data.
+            </p>
+
+            <a href="https://www.sciencedirect.com/science/article/pii/S221268642600244X"
+               target="_blank"
+               rel="noopener noreferrer">
+                Read Paper →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section">
+
+        <h2>Contact</h2>
+
+        <p>
+            Feel free to get in touch regarding research and collaboration.
+        </p>
+
+        <!-- Add your preferred email or profile links here -->
+
+    </section>
+
 
     <script src="script.js"></script>
 
