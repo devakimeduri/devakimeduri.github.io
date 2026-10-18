@@ -561,3 +561,38 @@ nav a:hover{
     margin-bottom:6px;
 
 }
+
+/* ================= PUBLICATIONS ================= */
+
+#publications {
+    scroll-margin-top: 100px;
+}
+
+#publications .research-card {
+    margin-bottom: 24px;
+}
+
+#publications .research-card a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #7da5ff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#publications .research-card a:hover {
+    color: #a9c4ff;
+}
+
+/* Smooth scrolling for navigation */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Keep sections from hiding behind the navbar */
+#about,
+#research,
+#contact {
+    scroll-margin-top: 100px;
+}
