@@ -596,3 +596,59 @@ html {
 #contact {
     scroll-margin-top: 100px;
 }
+
+
+/* ================= SECTION SPACING ================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#about,
+#research,
+#publications,
+#other-work,
+#contact {
+    scroll-margin-top: 100px;
+}
+
+/* ================= RESEARCH CARDS ================= */
+
+.research-card {
+    margin-bottom: 24px;
+}
+
+.research-card a {
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 18px;
+    color: #7da5ff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.research-card a:hover {
+    color: #a9c4ff;
+}
+
+/* ================= PUBLICATIONS ================= */
+
+#publications > h3,
+#other-work > h3 {
+    margin-top: 42px;
+    margin-bottom: 20px;
+    color: #7da5ff;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* ================= CONTACT LINKS ================= */
+
+#contact a {
+    color: #7da5ff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #a9c4ff;
+}
